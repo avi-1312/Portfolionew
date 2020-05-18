@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: black;
+  color: yellow;
+}
+.container{
+  padding: 60px 60px;
+}
+.self{
+  height: 300px;
+}
+
+.about{
+  background-color:yellow;
+  max-width: 100vw;
+  right: 0;
+  padding: 30px;
+  position: relative;
+  display: block;
+  color: black;
+  margin-top: 25px;
+}
+.about>.container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.svgimg{
+  height: 50px;
+  fill: yellow;
+}
+
+.menu{
+  right: 0;
+  top: 0;
+}
+.project{
+  position: relative;
+}
+
+.icon
+{
+  height: 30px;
+  fill: yellow;
+}
+
+.imgtext{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.imgcont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-unstyled a{
+display: block;
+}
+
+.button{
+  padding: 10px 25px;
+  background-color: black;
+  border: 2px solid yellow;
+}
+
+.button:hover{
+  background-color: yellow;
+  color: black !important;
+  border: 2px solid yellow;
+}
+
+.button:focus{
+  outline: none;
+}
+
+.bg-info {
+  background-color: #111727!important;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+.social-links {
+  display: inline-block;
+}
+#Contact a {
+  color: yellow;
+}
+
+.insta{
+  font-size: 30px;
+    margin-right: 5px;
+}
+.linkedin{
+  font-size: 50px;
+    margin-right: 5px;
+}
+.fb{
+  font-size: 30px;
+    margin-right: 5px;
+}
+.git{
+  font-size: 30px;
+    margin-right: 5px;
+}
